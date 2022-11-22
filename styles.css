@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image-profile{
+    width: 200px;
+    border-radius: 250%;
+}
+
+.main-container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+/* INTRO SECTION */
+.cv-intro{
+    /* border: 2px solid purple; */
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 780px;
+    text-align: center;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cv-title{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.cv-title-bold{
+    font-weight: 900;
+    color: rgb(126, 99, 130);
+    font-size: 3.5rem;
+}
+
+.cv-position{
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.cv-info{
+    /* border: 2px solid greenyellow; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/* CONTACT SECTION */
+.article-container{
+    /* border: 1px solid pink; */
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.title{
+    text-transform: uppercase;
+    color: rgb(126, 99, 130);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.info-texts{
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.years{
+    color: rgb(113, 113, 113);
+    font-style: italic;
+}
+
+.unordered-list{
+    margin-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin: 10px auto;
+    color: rgb(195, 195, 195);
+}
+
+@media (min-width: 768px){
+    .cv-intro{
+        max-width: 1400px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .texts{
+        margin-left: 100px;
+        text-align: left;
+    }
+
+    .info{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 30px 10px;
+    }
+
+    .two{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 30px 30px;
+        margin-right: 0px;
+    }
+    
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
